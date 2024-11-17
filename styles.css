@@ -62,3 +62,8 @@ main {
     background-color: #fff;
     color: #000;
 }
+
+.centerDRG {
+    text-align: center;
+    font-size: 36px;
+  }
