@@ -67,3 +67,19 @@ main {
     text-align: center;
     font-size: 36px;
   }
+
+/* Адаптация для мобильных устройств */
+.responsive-iframe {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Дополнительные стили для мобильных экранов */
+  @media (max-width: 768px) {
+    iframe {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+  
